@@ -2,7 +2,7 @@
 - name: Creating users
   hosts: all
   vars_files:
-  - ./CH5_wSource_Demo_2/vars.yml
+  - CH5_wSource_Demo_2/vars.yml
   tasks:
   - name: Creating user {{ usr }}
     win_user:
