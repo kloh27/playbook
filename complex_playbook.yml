@@ -21,7 +21,7 @@
       - name: Creating a directory
         win_file:
               path: c:\custom_share
-              full: Administrator
+              state: directory
       - name: Enabling the sharing
         win_share:
           name: windows_share
