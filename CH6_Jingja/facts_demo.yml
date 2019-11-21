@@ -3,6 +3,5 @@
     hosts: all
     tasks:
     - name: Testing a facts
-      win_template:
           src: template.j2
           dest: C:\\Users\\Administrator\Desktop\\facts.txt
